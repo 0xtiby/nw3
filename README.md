@@ -6,7 +6,7 @@
 
 > **Warning**
 
-> This is repo is still under active development documentation will come in few days.
+> This is repo is still under active development documentation will come in few days. Before you read this [post](https://www.tibyverse.xyz/articles/introducing-nw3) to learn how to use it
 
 ## ⚡️ Quick start
 
