@@ -23,4 +23,6 @@ export const locales = {
   tokenRequired: "To login you need to own a token of the contract",
   unauthorized: "Unauthorized",
   unauthorizedMessage: "You are not authorized to access this page.",
+  nfts: "NFTs",
+  price: "Price",
 };
