@@ -6,7 +6,7 @@ import { withAccountCheck } from "@/hoc/withAccountCheck";
 
 const GatedPage: React.FC = () => {
   return (
-    <Layout title={locales.profile}>
+    <Layout title={locales.tokenGated}>
       <div className=" bg-white rounded p-6">
         <div className="flex">
           <div className="ml-4">

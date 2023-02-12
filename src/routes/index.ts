@@ -5,4 +5,5 @@ export const routes = {
   transactions: "/app/transactions",
   gated: "/app/gated",
   unauthorized: "/app/401",
+  nfts: "/app/nfts",
 };
