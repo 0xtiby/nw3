@@ -25,4 +25,8 @@ export const locales = {
   unauthorizedMessage: "You are not authorized to access this page.",
   nfts: "NFTs",
   price: "Price",
+  mint: "Mint",
+  mintInstuctions: "Before minting you need to connect your wallet.",
+  connectWallet: "Connect wallet",
+  mintSuccess: "Successfully minted your NFT!",
 };

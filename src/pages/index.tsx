@@ -44,14 +44,23 @@ const HomePage = () => (
       </div>
       <div className="px-6 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
-          <div className="flex lg:flex-1">
+          <div className="flex flex-1">
             <Link href={routes.home} className="-m-1.5 p-1.5">
               <span className="sr-only">{config.APP_NAME}</span>
               <Image className="h-10 w-10 rounded-full" src={Logo} alt="Logo" />
             </Link>
           </div>
 
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+          <div>
+            <Link
+              href={routes.signIn}
+              className="text-sm font-semibold leading-6 text-gray-900"
+            >
+              {locales.mint}
+            </Link>
+          </div>
+
+          <div className="flex flex-1 justify-end">
             <Link
               href={routes.signIn}
               className="text-sm font-semibold leading-6 text-gray-900"
